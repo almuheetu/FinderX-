@@ -10208,3 +10208,23 @@ a.text-dark:hover {
     width: 100%;
 }
 
+#header-search{
+	border-left: 0;
+	margin: 0 auto;
+	max-width: 29rem;
+	position: relative;
+}
+
+.froms {
+	background-color: #fff;
+	margin: 0 auto;
+	padding: .75rem .5rem;
+	width: calc(100% - 1.5rem);
+}
+.Input-Wrapper input {
+	/* border-right: none; */
+	box-sizing: border-box;
+	color: #05293c;
+	padding: 3px .6rem;
+	width: calc(100% + 2px);
+}
