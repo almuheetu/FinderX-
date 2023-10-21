@@ -233,14 +233,15 @@ label {
 	z-index: 125;
 }
 .logo {
-	text-align: center;
-	margin: 5px auto;
+	text-align: left;
+	margin: 0px auto;
 }
 
 .logo a {
-    font-size: 35px;
+    font-size: 40px;
     color: #24963D;
-    font-family: Roboto;
+    font-family: 'Cookie', cursive;
+    font-weight: bolder;
 }
 
 /* .header-top {
@@ -251,7 +252,7 @@ label {
 
 .top-menu-fix a {
     align-items: center;
-    color: #247ba0;
+    color: #1e8558;
     cursor: pointer;
     display: flex;
     flex-direction: row;
@@ -285,6 +286,9 @@ label {
     pointer-events: none;
     width: 100%;
 }
+.top-menu-fix a span:last-child {
+    border-right: none;
+}
 
 .top-menu-fix-2 a span {
     border-right: 1px solid #edf3f6;
@@ -311,21 +315,21 @@ label {
 }
 
 .Input-Wrapper input {
-    box-sizing: border-box;
-    color: #05293c;
-    padding: 3px .6rem;
-    width: calc(100% + 2px);
-    border-radius: 3px 0 0 3px;
-    border: 1px solid #b8c6ce;
+	box-sizing: border-box;
+	color: #05293c;
+	padding: 6px .6rem;
+	width: calc(100% + 2px);
+	border-radius: 3px 0 0 3px;
+	border: 1px solid #b8c6ce;
 }
 
 .header_search-btn {
-    background: #f95c39;
-    border: 1px solid #f95c39;
-    border-radius: 0 3px 3px 0;
-    color: #fff;
-    flex: 0 0 40px;
-    padding: 0px 15px;
+	background: #1e8558;
+	border: 1px solid #1e8558;
+	border-radius: 0 3px 3px 0;
+	color: #fff;
+	flex: 0 0 40px;
+	padding: 0px 15px;
 }
 
 
