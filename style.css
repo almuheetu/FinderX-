@@ -225,18 +225,22 @@ label {
 ---------Header Css------------
 -------------------------------- */
 .header-area {
-    background-color: #fff;
-    box-shadow: 0 2px 2px rgba(63, 92, 110, .15);
-    height: 3.75rem;
-    transform: translateZ(0);
-    width: 100%;
-    z-index: 125;
+	background-color: #fff;
+	box-shadow: 0 2px 2px rgba(63, 92, 110, .15);
+	height: 4em;
+	transform: translateZ(0);
+	width: 100%;
+	z-index: 125;
+}
+.logo {
+	text-align: center;
+	margin: 5px auto;
 }
 
 .logo a {
-	font-size: 35px;
-	color: #24963D;
-	font-family: Roboto;
+    font-size: 35px;
+    color: #24963D;
+    font-family: Roboto;
 }
 
 /* .header-top {
@@ -246,24 +250,27 @@ label {
 
 
 .top-menu-fix a {
-	align-items: center;
-	color: #247ba0;
-	cursor: pointer;
-	display: flex;
-	flex-direction: row;
-	padding: 1rem 0 1rem .75rem;
+    align-items: center;
+    color: #247ba0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 1rem .75rem;
 }
+
 .top-menu-fix-2 a {
-	align-items: center;
-	color: #247ba0;
-	cursor: pointer;
-	flex-direction: row;
-	padding: 1rem 0 1rem .75rem;
+    align-items: center;
+    color: #247ba0;
+    cursor: pointer;
+    flex-direction: row;
+    padding: 1rem 0 1rem .75rem;
 }
+
 .top-menu-fix a i {
-	font-size: 25px;
-	padding-right: 10px;
+    font-size: 25px;
+    padding-right: 10px;
 }
+
 .top-menu-fix-2 a i {
     font-size: 25px;
     padding-right: 5px;
@@ -278,6 +285,7 @@ label {
     pointer-events: none;
     width: 100%;
 }
+
 .top-menu-fix-2 a span {
     border-right: 1px solid #edf3f6;
     font-size: .75rem;
@@ -288,33 +296,71 @@ label {
     width: 100%;
 }
 
-#header-search{
-	border-left: 0;
-	margin: 0 auto;
-	max-width: 29rem;
-	position: relative;
+#header-search {
+    border-left: 0;
+    margin: 0 auto;
+    max-width: 29rem;
+    position: relative;
 }
 
 .froms {
-	background-color: #fff;
-	margin: 0 auto;
-	padding: .75rem .5rem;
-	width: calc(100% - 1.5rem);
+    background-color: #fff;
+    margin: 0 auto;
+    padding: .75rem .5rem;
+    width: calc(100% - 1.5rem);
 }
+
 .Input-Wrapper input {
-	box-sizing: border-box;
-	color: #05293c;
-	padding: 3px .6rem;
-	width: calc(100% + 2px);
-	border-radius: 3px 0 0 3px;
-	border: 1px solid #b8c6ce;
+    box-sizing: border-box;
+    color: #05293c;
+    padding: 3px .6rem;
+    width: calc(100% + 2px);
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #b8c6ce;
 }
 
 .header_search-btn {
-	background: #f95c39;
-	border: 1px solid #f95c39;
-	border-radius: 0 3px 3px 0;
-	color: #fff;
-	flex: 0 0 40px;
-	padding: 0px 15px;
+    background: #f95c39;
+    border: 1px solid #f95c39;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    flex: 0 0 40px;
+    padding: 0px 15px;
+}
+
+
+#header-login {
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 0;
+	text-align: right;
+	display: flex;
+}
+
+.header_Wishlist {
+	text-align: center;
+	color: #1e8558;
+	cursor: pointer;
+	height: 100%;
+	padding-right: 15px;
+	text-decoration: none;
+	line-height: 1;
+	margin-top: 10px;
+}
+
+.headicon {
+	margin: 10px .5rem;
+	position: relative;
+}
+
+.header_Wishlist_text {
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+.pading {
+	padding: 0;
+}
+.side {
+	font-size: 25px;
 }
