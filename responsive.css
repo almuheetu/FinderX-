@@ -1,0 +1,54 @@
+/* Latop Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* header_nav */
+
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* header_nav */
+
+}
+
+/* LG  Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* header_nav */
+    .top-menu-fix a {
+        display: inherit;
+    }
+
+    .top-menu-fix a {
+        display: inherit;
+        padding: 7px 0px;
+        line-height: 1;
+        text-align: center;
+    }
+    .header_Wishlist {
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+    /* header_nav */
+    .top-menu-fix a {
+        display: inherit;
+    }
+
+    .top-menu-fix a {
+        display: inherit;
+        padding: 7px 0px;
+        line-height: 1;
+        text-align: center;
+    }
+}
+
+/* XS mobile :320px. */
+
+@media (max-width: 767px) {}
+
+/* SM Device :480px. */
+
+@media only screen and (min-width: 550px) and (max-width: 767px) {}
