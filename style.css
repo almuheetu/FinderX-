@@ -308,3 +308,11 @@ label {
 	padding: 3px .6rem;
 	width: calc(100% + 2px);
 }
+
+.header_search-btn {
+	background: #f95c39;
+	border: 1px solid #f95c39;
+	border-radius: 0 3px 3px 0;
+	color: #fff;
+	flex: 0 0 40px;
+}
