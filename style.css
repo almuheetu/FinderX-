@@ -178,13 +178,13 @@ label {
 }
 
 *::-moz-placeholder {
-    color: #555555;
+    color: #b8c6ce;
     font-size: 14px;
     opacity: 1;
 }
 
 *::placeholder {
-    color: #555555;
+    color: #b8c6ce;
     font-size: 14px;
     opacity: 1;
 }
@@ -302,11 +302,12 @@ label {
 	width: calc(100% - 1.5rem);
 }
 .Input-Wrapper input {
-	/* border-right: none; */
 	box-sizing: border-box;
 	color: #05293c;
 	padding: 3px .6rem;
 	width: calc(100% + 2px);
+	border-radius: 3px 0 0 3px;
+	border: 1px solid #b8c6ce;
 }
 
 .header_search-btn {
@@ -315,4 +316,5 @@ label {
 	border-radius: 0 3px 3px 0;
 	color: #fff;
 	flex: 0 0 40px;
+	padding: 0px 15px;
 }
