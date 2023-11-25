@@ -28,6 +28,14 @@
     .header_Wishlist {
         padding-right: 0;
     }
+    .headicon {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
@@ -42,6 +50,13 @@
         padding: 7px 0px;
         line-height: 1;
         text-align: center;
+    }
+    .header_Wishlist {
+        padding-right: 0;
+    }
+    .container {
+        padding-right: 0;
+        padding-left: 0;
     }
 }
 
